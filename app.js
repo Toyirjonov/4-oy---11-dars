@@ -1,4 +1,4 @@
-//  UYGI VAZIFA 264 QATORDAN BOSHLANGAN 
+//  UYGI VAZIFA 264 QATORDAN BOSHLANGAN
 
 const users = [
   {
@@ -472,13 +472,13 @@ const users = [
 
 // 20-task
 // Products massivini id, name, price, rating va discount bo'yicha sortlash. (sort)
-const products = [
-  { id: 3, name: "Smartphone", price: 450, rating: 4.5, discount: 10 },
-  { id: 1, name: "Laptop", price: 999, rating: 4.7, discount: 15 },
-  { id: 5, name: "Headphones", price: 99, rating: 4.3, discount: 5 },
-  { id: 4, name: "Keyboard", price: 120, rating: 4.0, discount: 20 },
-  { id: 2, name: "Monitor", price: 300, rating: 4.2, discount: 12 },
-];
+// const products = [
+//   { id: 3, name: "Smartphone", price: 450, rating: 4.5, discount: 10 },
+//   { id: 1, name: "Laptop", price: 999, rating: 4.7, discount: 15 },
+//   { id: 5, name: "Headphones", price: 99, rating: 4.3, discount: 5 },
+//   { id: 4, name: "Keyboard", price: 120, rating: 4.0, discount: 20 },
+//   { id: 2, name: "Monitor", price: 300, rating: 4.2, discount: 12 },
+// ];
 
 // const byId = [...products].sort((a, b) => a.id - b.id);
 // const byName = [...products].sort((a, b) => {
@@ -498,5 +498,12 @@ const products = [
 
 // 21-task
 // Rating bo'yicha eng kuchli product topilsin. (sort)
+// const products = [
+//   { id: 3, name: "Smartphone", price: 450, rating: 4.5, discount: 10 },
+//   { id: 1, name: "Laptop", price: 999, rating: 4.7, discount: 15 },
+//   { id: 5, name: "Headphones", price: 99, rating: 4.3, discount: 5 },
+//   { id: 4, name: "Keyboard", price: 120, rating: 4.0, discount: 20 },
+//   { id: 2, name: "Monitor", price: 300, rating: 4.2, discount: 12 },
+// ];
 // const strongProduct = products.sort((a, b) => b.rating - a.rating)[0];
 // console.log(strongProduct);
